@@ -14,7 +14,7 @@
 - HTML, CSS
 - Javascript basics
 - Vue 3 basics
-- CMS Drupal
+- CMS Drupal, CMS Wordpress
 
 ## Code Example:
 
