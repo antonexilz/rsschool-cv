@@ -9,13 +9,19 @@
 - E-mail: antonexilz95@gmail.com
 - Telegram: @antonexilz
 
+## Skills
+
+- HTML, CSS
+- Javascript basics
+- Vue 3 basics
+- CMS Drupal
+
 ## Code Example:
 
 ```javascript
-const func = (num) => {
-	if (num > 0) {
-		return num - 1;
-	}
-	return num + 1;
+const hello = () => {
+	console.log('Hello World!');
 };
+
+hello();
 ```
