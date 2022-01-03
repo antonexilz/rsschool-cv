@@ -5,10 +5,73 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<link rel="stylesheet" href="style.css" />
-		<title>RS School HTML</title>
+		<link rel="stylesheet" href="./css/reset.css" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+			integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="./css/style.css" />
+
+		<title>cv</title>
 	</head>
 	<body>
-		<h1 class="text-color">Hello World!</h1>
+		<header class="header">
+			<div class="container">
+				<div class="header-info">
+					<img class="photo" src="./assets/img/images.jpg" alt="photo" />
+					<div>
+						<h1 class="my-name">Anton M</h1>
+						<h2 class="my-name">Software engineer</h2>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="main">
+			<section class="container">
+				<section class="contact">
+					<h2>Contact information:</h2>
+					<div>Country: Belarus</div>
+					<div>E-mail: antonexilz@gmail.com</div>
+				</section>
+				<section class="skills">
+					<h2>Skills:</h2>
+					<ul class="list">
+						<li>HTML, CSS</li>
+						<li>Git, Github</li>
+						<li>JavaScript basics</li>
+						<li>Vue 3 basics</li>
+						<li>CMS Drupal</li>
+						<li>CMS Wordpress</li>
+					</ul>
+				</section>
+				<section class="code">
+					<h2>Code Example:</h2>
+					<code>
+						<p>const hello = () => { console.log('Hello World!'); };</p>
+
+						<p>hello();</p>
+					</code>
+				</section>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<div class="container">
+				<ul class="list-footer">
+					<li>2021</li>
+					<li>
+						<a href="https://github.com/antonexilz"><i class="fab fa-github"></i></a>
+					</li>
+					<li>
+						<a href="https://rs.school/js/"
+							><img src="./assets/svg/rs_school_js.svg" alt="rsschool"
+						/></a>
+					</li>
+				</ul>
+			</div>
+		</footer>
 	</body>
 </html>

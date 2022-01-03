@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: 'Mulish', sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 1.5;
+	background-color: skyblue;
+}
+
+a,
+a:visited {
+	color: #000;
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 0 20px;
+	background-color: #fff;
+	border: 1px solid #000;
+	margin-top: 5px;
+}
+
+.header-info {
+	display: flex;
+	justify-content: center;
+}
+
+.photo {
+	border-radius: 50%;
+	margin: 0 5%;
+}
+
+.my-name {
+	display: block;
+	color: #000;
+	margin-top: 5%;
+	font-size: 48px;
+}
+
+.my-spec {
+	font-size: 32px;
+	margin-top: 10%;
+	margin-left: -190px;
+}
+
+.contact,
+.skills,
+.code {
+	text-align: center;
+}
+
+.contact h2,
+.skills h2,
+.code h2 {
+	padding: 25px 0;
+	font-size: 24px;
+	text-decoration: underline;
+	text-align: center;
+}
+
+.list li:hover {
+	color: green;
+	text-decoration: underline;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.footer .container {
+	display: block;
+	text-align: center;
+	height: 100px;
+}
+
+.list-footer {
+	display: flex;
+	justify-content: space-around;
+	font-size: 32px;
+	margin-top: 25px;
+	list-style: none;
+	color: #000;
+}
+
+.list-footer img {
+	width: 100px;
+}
